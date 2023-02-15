@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stove-lambda"
+version = "0.1.0"
+description = ""
+authors = ["Mike DePoint <mike.depoint@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.28.2"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^4.0.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
